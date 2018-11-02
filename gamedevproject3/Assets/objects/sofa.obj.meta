@@ -1,66 +1,16 @@
 fileFormatVersion: 2
-guid: bf53206894ce33b4bb57e3630292fe0d
+guid: fda89e04c756559448b66dd4045fb8ba
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: pPlane1
-    100002: pPlane2
-    100004: //RootNode
-    100006: table
-    100008: table_pCube3
-    100010: table_pCube4
-    100012: table_pCube6
-    100014: table_pCube9
-    100016: tv
-    100018: sofa1
-    100020: sofa1_sofa
-    100022: sofa1_sofa2
-    400000: pPlane1
-    400002: pPlane2
-    400004: //RootNode
-    400006: table
-    400008: table_pCube3
-    400010: table_pCube4
-    400012: table_pCube6
-    400014: table_pCube9
-    400016: tv
-    400018: sofa1
-    400020: sofa1_sofa
-    400022: sofa1_sofa2
+    100000: //RootNode
+    100002: sofa3
+    400000: //RootNode
+    400002: sofa3
     2100000: initialShadingGroup
-    2300000: pPlane1
-    2300002: pPlane2
-    2300004: table
-    2300006: table_pCube3
-    2300008: table_pCube4
-    2300010: table_pCube6
-    2300012: table_pCube9
-    2300014: tv
-    2300016: sofa1
-    2300018: sofa1_sofa
-    2300020: sofa1_sofa2
-    3300000: pPlane1
-    3300002: pPlane2
-    3300004: table
-    3300006: table_pCube3
-    3300008: table_pCube4
-    3300010: table_pCube6
-    3300012: table_pCube9
-    3300014: tv
-    3300016: sofa1
-    3300018: sofa1_sofa
-    3300020: sofa1_sofa2
-    4300000: pPlane1
-    4300002: pPlane2
-    4300004: table
-    4300006: table_pCube3
-    4300008: table_pCube4
-    4300010: table_pCube6
-    4300012: table_pCube9
-    4300014: tv
-    4300016: sofa1
-    4300018: sofa1_sofa
-    4300020: sofa1_sofa2
+    2300000: sofa3
+    3300000: sofa3
+    4300000: sofa3
   externalObjects: {}
   materials:
     importMaterials: 1
