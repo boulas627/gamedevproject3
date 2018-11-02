@@ -20,7 +20,13 @@ public class InteractController : MonoBehaviour {
 	private void Update () {
         if (Input.GetKeyDown("x"))
         {
-
+            if(thisInteract != null)
+            {
+                if(thisInteract.gameObject.GetComponent<DoorAnimator>() != null)
+                {
+                    thisInteract.gameObject.GetComponent<DoorAnimator>().Animate();
+                }
+            }
         }
 
         thisInteract = null;
