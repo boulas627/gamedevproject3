@@ -12,6 +12,9 @@ ModelImporter:
     100012: table_pCube6
     100014: table_pCube9
     100016: tv
+    100018: sofa1
+    100020: sofa1_sofa
+    100022: sofa1_sofa2
     400000: pPlane1
     400002: pPlane2
     400004: //RootNode
@@ -21,6 +24,9 @@ ModelImporter:
     400012: table_pCube6
     400014: table_pCube9
     400016: tv
+    400018: sofa1
+    400020: sofa1_sofa
+    400022: sofa1_sofa2
     2100000: initialShadingGroup
     2300000: pPlane1
     2300002: pPlane2
@@ -30,6 +36,9 @@ ModelImporter:
     2300010: table_pCube6
     2300012: table_pCube9
     2300014: tv
+    2300016: sofa1
+    2300018: sofa1_sofa
+    2300020: sofa1_sofa2
     3300000: pPlane1
     3300002: pPlane2
     3300004: table
@@ -38,6 +47,9 @@ ModelImporter:
     3300010: table_pCube6
     3300012: table_pCube9
     3300014: tv
+    3300016: sofa1
+    3300018: sofa1_sofa
+    3300020: sofa1_sofa2
     4300000: pPlane1
     4300002: pPlane2
     4300004: table
@@ -46,6 +58,9 @@ ModelImporter:
     4300010: table_pCube6
     4300012: table_pCube9
     4300014: tv
+    4300016: sofa1
+    4300018: sofa1_sofa
+    4300020: sofa1_sofa2
   externalObjects: {}
   materials:
     importMaterials: 1
