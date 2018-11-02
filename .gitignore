@@ -36,5 +36,3 @@ sysinfo.txt
 *.apk
 *.unitypackage
 gamedevproject3/Library/
-
-*.meta
