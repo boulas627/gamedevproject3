@@ -30,43 +30,43 @@ public class CharacterInputWrapper : MonoBehaviour
     private void Update()
     {
         bool movechange = false;
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKeyDown("up"))
         {
             inpv++;
             movechange = true;
         }
-        if (Input.GetKeyDown("a"))
+        if (Input.GetKeyDown("left"))
         {
             inph--;
             movechange = true;
         }
-        if (Input.GetKeyDown("s"))
+        if (Input.GetKeyDown("down"))
         {
             inpv--;
             movechange = true;
         }
-        if (Input.GetKeyDown("d"))
+        if (Input.GetKeyDown("right"))
         {
             inph++;
             movechange = true;
         }
 
-        if (Input.GetKeyUp("w"))
+        if (Input.GetKeyUp("up"))
         {
             inpv--;
             movechange = true;
         }
-        if (Input.GetKeyUp("a"))
+        if (Input.GetKeyUp("left"))
         {
             inph++;
             movechange = true;
         }
-        if (Input.GetKeyUp("s"))
+        if (Input.GetKeyUp("down"))
         {
             inpv++;
             movechange = true;
         }
-        if (Input.GetKeyUp("d"))
+        if (Input.GetKeyUp("right"))
         {
             inph--;
             movechange = true;
