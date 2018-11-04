@@ -14,7 +14,15 @@ public class JournalButton : MonoBehaviour {
     // Update is called once per frame
     public void Test()
     {
-        modalPanelObject.SetActive(true);
+        if(modalPanelObject.activeSelf == false)
+        {
+            modalPanelObject.SetActive(true);
+        }
+        else
+        {
+            modalPanelObject.SetActive(false);
+        }
+
     }
 
 
