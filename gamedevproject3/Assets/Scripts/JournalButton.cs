@@ -4,20 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class JournalButton : MonoBehaviour {
-    public Button m_YourFirstButton;
-    private JournalPanel journalPanel;
+    public GameObject modalPanelObject;
     // Use this for initialization
-    void Start () {
-        m_YourFirstButton.onClick.AddListener(TaskOnClick);
-    }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
-    void TaskOnClick()
+    void Awake()
     {
-
+        
     }
+    // Update is called once per frame
+    public void Test()
+    {
+        modalPanelObject.SetActive(true);
+    }
+
+
 }
