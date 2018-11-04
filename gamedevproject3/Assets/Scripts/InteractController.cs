@@ -26,6 +26,10 @@ public class InteractController : MonoBehaviour {
                 {
                     thisInteract.gameObject.GetComponent<DoorAnimator>().Animate();
                 }
+                if (thisInteract.gameObject.GetComponent<Pickupable>() != null)
+                {
+                    thisInteract.gameObject.GetComponent<Pickupable>().Pickup();
+                }
             }
         }
 
