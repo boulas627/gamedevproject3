@@ -5,12 +5,18 @@ ModelImporter:
   fileIDToRecycleName:
     100000: door
     100002: //RootNode
+    100004: door:door
     400000: door
     400002: //RootNode
+    400004: door:door
     2100000: doorMat
+    2100002: door_initialShadingGroup
     2300000: door
+    2300002: door:door
     3300000: door
+    3300002: door:door
     4300000: door
+    4300002: door:door
   externalObjects: {}
   materials:
     importMaterials: 1
