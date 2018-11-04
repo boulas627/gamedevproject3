@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 30b5b17a113b7bb47b14a846bcbfead0
+guid: bedb9b4764f69b146a53f4d41474d60d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: door
     100002: //RootNode
+    100004: door:door
     400000: door
     400002: //RootNode
+    400004: door:door
     2100000: doorMat
+    2100002: door_initialShadingGroup
     2300000: door
+    2300002: door:door
     3300000: door
+    3300002: door:door
     4300000: door
+    4300002: door:door
   externalObjects: {}
   materials:
     importMaterials: 1
