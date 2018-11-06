@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: a3cf2659ed259cc46831c8579edf924d
+guid: aecf2893e05c6d74baff25a6d071dde9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: lambert1
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: pSphere1
-    9500000: //RootNode
-    2186277476908879412: ImportLogs
+    100000: pPlane2
+    100002: //RootNode
+    400000: pPlane2
+    400002: //RootNode
+    2100000: initialShadingGroup
+    2300000: pPlane2
+    3300000: pPlane2
+    4300000: pPlane2
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -63,7 +63,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -88,7 +88,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
