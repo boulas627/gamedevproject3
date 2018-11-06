@@ -5,9 +5,17 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class JournalPanel : MonoBehaviour {
+    public int progress_num = -1;
 
-	// Use this for initialization
-	void Start () {
+    void Awake()
+    {
+        if(progress_num == 0)
+        {
+            GameObject.Find("MemTitle1").SetActive(false);
+        }
+    }
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
