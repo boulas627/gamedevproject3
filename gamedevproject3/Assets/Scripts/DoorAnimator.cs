@@ -30,12 +30,14 @@ public class DoorAnimator : MonoBehaviour {
                 if ((!opened && openCW) || (opened && !openCW))
                 {
                     //rotate clockwise
-                    transform.RotateAround(transform.GetChild(0).transform.position, Vector3.up, 90/animationlength * Time.deltaTime);
+                    transform.GetChild(1).RotateAround(transform.GetChild(0).transform.position, Vector3.up, 90/animationlength * Time.deltaTime);
+                    transform.GetChild(2).RotateAround(transform.GetChild(0).transform.position, Vector3.up, 90/animationlength * Time.deltaTime);
                 }
                 else
                 {
                     //rotate ccw
-                    transform.RotateAround(transform.GetChild(0).transform.position, Vector3.up, -90/animationlength * Time.deltaTime);
+                    transform.GetChild(1).RotateAround(transform.GetChild(0).transform.position, Vector3.up, -90/animationlength * Time.deltaTime);
+                    transform.GetChild(2).RotateAround(transform.GetChild(0).transform.position, Vector3.up, -90/animationlength * Time.deltaTime);
                 }
                 animationtimer -= Time.deltaTime;
             }

@@ -9,12 +9,13 @@ public class CharacterInputWrapper : MonoBehaviour
     private Vector3 movement;
     private Transform m_Cam;
     private Vector3 m_CamForward;
+    private Rigidbody rbody;
 
     public float movespeed = 0.1f;
     // Use this for initialization
     void Start()
     {
-
+        rbody = gameObject.GetComponent<Rigidbody>();
         if (Camera.main != null)
         {
             m_Cam = Camera.main.transform;
@@ -90,6 +91,8 @@ public class CharacterInputWrapper : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.Translate(movement * movespeed);
+        
+        rbody.AddForce(movement * movespeed);
+        gameObject.GetComponentInChildren<rotateToFace>().rotateTo(rbody.velocity);
     }
 }
