@@ -330,13 +330,14 @@ GameObject:
   - component: {fileID: 222533220267142234}
   - component: {fileID: 114518497873198816}
   - component: {fileID: 114699983182932666}
+  - component: {fileID: 114682621358628332}
   m_Layer: 5
   m_Name: Journal Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1573743850395016
 GameObject:
   m_ObjectHideFlags: 1
@@ -1165,6 +1166,17 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Blurred....
+--- !u!114 &114682621358628332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544389989860318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7461085ad93a769419e9fec149afd27f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114694980952612992
 MonoBehaviour:
   m_ObjectHideFlags: 1
