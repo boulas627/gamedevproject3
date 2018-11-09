@@ -44,7 +44,7 @@ public class IntroPanel : MonoBehaviour {
             StartCoroutine(FadeAlpha());
 
         }
-        if(Time.time - holder > 23)
+        if(Time.time - holder > 17)
         {
             this.gameObject.SetActive(false);
         }
