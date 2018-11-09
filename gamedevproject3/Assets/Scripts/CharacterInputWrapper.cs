@@ -10,6 +10,7 @@ public class CharacterInputWrapper : MonoBehaviour
     private Transform m_Cam;
     private Vector3 m_CamForward;
     private Rigidbody rbody;
+    public Animator anim;
 
     public float movespeed = 0.1f;
     // Use this for initialization
@@ -91,7 +92,6 @@ public class CharacterInputWrapper : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
         rbody.AddForce(movement * movespeed);
         gameObject.GetComponentInChildren<rotateToFace>().rotateTo(rbody.velocity);
     }

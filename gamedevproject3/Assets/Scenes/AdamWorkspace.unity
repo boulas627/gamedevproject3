@@ -344,6 +344,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114270910985684538, guid: 1401efea94f47734798143e084a3e1b3,
+        type: 2}
+      propertyPath: modalPanelObject
+      value: 
+      objectReference: {fileID: 819304128}
     - target: {fileID: 114941242785868382, guid: 1401efea94f47734798143e084a3e1b3,
         type: 2}
       propertyPath: Pressed_tomato_leaf_O
@@ -404,11 +409,6 @@ Prefab:
       propertyPath: Letter_from_Aurora_H
       value: 
       objectReference: {fileID: 1157334363}
-    - target: {fileID: 114270910985684538, guid: 1401efea94f47734798143e084a3e1b3,
-        type: 2}
-      propertyPath: modalPanelObject
-      value: 
-      objectReference: {fileID: 819304128}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1401efea94f47734798143e084a3e1b3, type: 2}
   m_IsPrefabAsset: 0
@@ -925,6 +925,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826580414279098, guid: b36a86a413b7f554b918bbc4ee27032c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b36a86a413b7f554b918bbc4ee27032c, type: 2}

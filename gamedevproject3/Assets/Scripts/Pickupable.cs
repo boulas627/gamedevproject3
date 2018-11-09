@@ -9,12 +9,20 @@ public class Pickupable : MonoBehaviour {
     public int key = -1;
     public DisplayManager manager;
     public string message;
+    public ImageFade fadeout;
+    public AudioClip pickupkey;
+    public AudioClip pickupnote;
 
     public void Pickup()
     {
         if (key >= 0)
         {
             transform.parent.GetComponent<InteractController>().keyring.getKey(key);
+            transform.parent.GetComponent<AudioSource>().PlayOneShot(pickupkey, 0.5f);
+        }
+        if(flag > 0)
+        {
+            transform.parent.GetComponent<AudioSource>().PlayOneShot(pickupnote);
         }
         switch (flag)
         {
@@ -36,6 +44,10 @@ public class Pickupable : MonoBehaviour {
             case 6:
                 jpanel.Letter_from_Aurora = true;
                 break;
+            case 10:
+                fadeout.Fadeout();
+                break;
+
         }
         if (message != "")
             manager.DisplayMessage(message);

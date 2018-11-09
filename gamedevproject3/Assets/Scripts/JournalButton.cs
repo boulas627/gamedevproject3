@@ -17,7 +17,7 @@ public class JournalButton : MonoBehaviour {
     }
     void Start()
     {
-        audioData = GameObject.Find("Journal Button").GetComponent<AudioSource>();
+        audioData = transform.GetComponent<AudioSource>();
     }
     // Update is called once per frame
     public void Test()
@@ -33,8 +33,8 @@ public class JournalButton : MonoBehaviour {
         }
         else
         {
-            modalPanelObject.SetActive(false);
             audioData.PlayOneShot(CloseSound);
+            modalPanelObject.SetActive(false);
             //displayManager.DisplayMessage("Clicked!");
             //displayManager.fadeTime = 0.5f;
 

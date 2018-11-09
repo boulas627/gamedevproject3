@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour {
     public GameObject modalPanelObject;
+    public AudioSource audiosrc;
+    public AudioClip openJournal;
+    public AudioClip closeJournal;
     // Use this for initialization
     void Start () {
 		
@@ -15,10 +18,12 @@ public class UIManager : MonoBehaviour {
         {
             if(modalPanelObject.activeSelf == false)
             {
+                audiosrc.PlayOneShot(openJournal);
                 modalPanelObject.SetActive(true);
             }
             else
             {
+                audiosrc.PlayOneShot(closeJournal);
                 modalPanelObject.SetActive(false);
             }
             

@@ -12,6 +12,9 @@ public class DoorAnimator : MonoBehaviour {
     private bool opened;
     public DisplayManager manager;
 
+    public AudioClip DoorLocked;
+    public AudioClip DoorOpen;
+
     private void Start()
     {
         animating = false;
@@ -21,18 +24,24 @@ public class DoorAnimator : MonoBehaviour {
 
     public void Animate()
     {
-        if (key >= 0) {
+        if (key >= 0)
+        {
             if (transform.parent.GetComponent<InteractController>().keyring.hasKey(key))
             {
+                transform.parent.GetComponent<AudioSource>().PlayOneShot(DoorOpen);
                 animating = true;
             }
             else
             {
+                transform.parent.GetComponent<AudioSource>().PlayOneShot(DoorLocked);
                 manager.DisplayMessage("It's locked...");
             }
         }
         else
+        {
             animating = true;
+            transform.parent.GetComponent<AudioSource>().PlayOneShot(DoorOpen);
+        }
     }
 
 	void Update () {
