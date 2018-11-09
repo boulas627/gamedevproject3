@@ -10,7 +10,7 @@ public class rotateToFace : MonoBehaviour {
     {
         if (vec != Vector3.zero)
         {
-            Vector3 rot = Vector3.RotateTowards(transform.forward, vec, .1f, .1f);
+            Vector3 rot = Vector3.RotateTowards(transform.forward, Quaternion.AngleAxis(50, Vector3.up) * vec, .1f, .1f);
             transform.forward = rot;
             //Quaternion rotation = Quaternion.LookRotation(vec, Vector3.up);
             //transform.rotation = rotation;
