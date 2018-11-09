@@ -10,6 +10,7 @@ public class DoorAnimator : MonoBehaviour {
     private float animationtimer;
     public bool openCW = true;
     private bool opened;
+    public DisplayManager manager;
 
     private void Start()
     {
@@ -24,6 +25,10 @@ public class DoorAnimator : MonoBehaviour {
             if (transform.parent.GetComponent<InteractController>().keyring.hasKey(key))
             {
                 animating = true;
+            }
+            else
+            {
+                manager.DisplayMessage("It's locked...");
             }
         }
         else
