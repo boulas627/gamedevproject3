@@ -7,6 +7,7 @@ public class InteractController : MonoBehaviour {
 
     public Text nameLabel;
     public GameObject player;
+    public globalVars keyring;
 
     private Interactable thisInteract = null;
 

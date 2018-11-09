@@ -6,6 +6,7 @@ public class DoorAnimator : MonoBehaviour {
 
     private bool animating;
     public float animationlength = 1;
+    public int key = -1;
     private float animationtimer;
     public bool openCW = true;
     private bool opened;
@@ -19,7 +20,14 @@ public class DoorAnimator : MonoBehaviour {
 
     public void Animate()
     {
-        animating = true;
+        if (key >= 0) {
+            if (transform.parent.GetComponent<InteractController>().keyring.hasKey(key))
+            {
+                animating = true;
+            }
+        }
+        else
+            animating = true;
     }
 
 	void Update () {
