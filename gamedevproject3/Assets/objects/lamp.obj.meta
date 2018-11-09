@@ -6,16 +6,21 @@ ModelImporter:
     100000: //RootNode
     100002: pCylinder1
     100004: pCylinder1_pSphere1
+    100006: lamp
     400000: //RootNode
     400002: pCylinder1
     400004: pCylinder1_pSphere1
+    400006: lamp
     2100000: initialShadingGroup
     2300000: pCylinder1
     2300002: pCylinder1_pSphere1
+    2300004: lamp
     3300000: pCylinder1
     3300002: pCylinder1_pSphere1
+    3300004: lamp
     4300000: pCylinder1
     4300002: pCylinder1_pSphere1
+    4300004: lamp
   externalObjects: {}
   materials:
     importMaterials: 1
