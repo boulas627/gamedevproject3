@@ -9,6 +9,7 @@ public class Pickupable : MonoBehaviour {
     public int key = -1;
     public DisplayManager manager;
     public string message;
+    public ImageFade fadeout;
 
     public void Pickup()
     {
@@ -36,6 +37,10 @@ public class Pickupable : MonoBehaviour {
             case 6:
                 jpanel.Letter_from_Aurora = true;
                 break;
+            case 10:
+                fadeout.Fadeout();
+                break;
+
         }
         if (message != "")
             manager.DisplayMessage(message);
