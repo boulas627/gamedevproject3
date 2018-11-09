@@ -26,9 +26,6 @@ public class JournalButton : MonoBehaviour {
         {
             modalPanelObject.SetActive(true);
             audioData.PlayOneShot(OpenSound);
-            displayManager.DisplayMessage("Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!Clicked!");
-            displayManager.fadeTime = 0.5f;
-            displayManager.displayTime = 1;
             //Exemple
             //displayManager.DisplayMessage("Clicked!");
             //displayManager.fadeTime = 0.5f;
