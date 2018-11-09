@@ -1,16 +1,17 @@
 fileFormatVersion: 2
-guid: 8780e038b90bbad48929daddf2203feb
+guid: caae5c4ebe83e3d4eaa5dd4fbc521489
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: pPlane2
+    100000: bed
     100002: //RootNode
-    400000: pPlane2
+    400000: bed
     400002: //RootNode
-    2100000: initialShadingGroup
-    2300000: pPlane2
-    3300000: pPlane2
-    4300000: pPlane2
+    2100000: bedMat
+    2300000: bed
+    3300000: bed
+    4300000: bed
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
