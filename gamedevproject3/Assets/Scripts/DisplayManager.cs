@@ -44,18 +44,28 @@ public class DisplayManager : MonoBehaviour
     IEnumerator FadeAlpha()
     {
         Color resetColor = displayText.color;
-        resetColor.a = 1;
+        resetColor.a = 0;
         displayText.color = resetColor;
-
+        
+        while (displayText.color.a < 1)
+        {
+            Color displayColor = displayText.color;
+            displayColor.a += Time.deltaTime / fadeTime;
+            Debug.Log(Time.deltaTime);
+            displayText.color = displayColor;
+            yield return null;
+        }
         yield return new WaitForSeconds(displayTime);
-
         while (displayText.color.a > 0)
         {
             Color displayColor = displayText.color;
             displayColor.a -= Time.deltaTime / fadeTime;
+            Debug.Log(Time.deltaTime);
             displayText.color = displayColor;
             yield return null;
         }
+
+
         yield return null;
     }
 }
