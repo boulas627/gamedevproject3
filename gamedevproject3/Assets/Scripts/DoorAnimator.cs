@@ -28,7 +28,7 @@ public class DoorAnimator : MonoBehaviour {
         {
             if (transform.parent.GetComponent<InteractController>().keyring.hasKey(key))
             {
-                transform.parent.GetComponent<AudioSource>().PlayOneShot(DoorOpen);
+                transform.parent.GetComponent<AudioSource>().PlayOneShot(DoorOpen, 0.6f);
                 animating = true;
             }
             else
@@ -40,7 +40,7 @@ public class DoorAnimator : MonoBehaviour {
         else
         {
             animating = true;
-            transform.parent.GetComponent<AudioSource>().PlayOneShot(DoorOpen);
+            transform.parent.GetComponent<AudioSource>().PlayOneShot(DoorOpen, 0.6f);
         }
     }
 
