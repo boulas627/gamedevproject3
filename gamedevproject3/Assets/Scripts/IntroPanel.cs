@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class IntroPanel : MonoBehaviour {
     private DisplayManager displayManager;
@@ -44,9 +45,10 @@ public class IntroPanel : MonoBehaviour {
             StartCoroutine(FadeAlpha());
 
         }
-        if(Time.time - holder > 17)
+        if(Time.time - holder > 16)
         {
             this.gameObject.SetActive(false);
+            SceneManager.LoadScene("EhrenWorkspace");
         }
     }
     IEnumerator Display1()

@@ -9,6 +9,6 @@ public class StartScript : MonoBehaviour {
     // Use this for initialization
     public void ChangetoStart()
     {
-        SceneManager.LoadScene("EhrenWorkspace");
+        SceneManager.LoadScene("IntroScene");
     }
 }
