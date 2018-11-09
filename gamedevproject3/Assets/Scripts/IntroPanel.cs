@@ -45,7 +45,7 @@ public class IntroPanel : MonoBehaviour {
             StartCoroutine(FadeAlpha());
 
         }
-        if(Time.time - holder > 18)
+        if(Time.time - holder > 17)
         {
             this.gameObject.SetActive(false);
             GameObject.Find("Button Panel").GetComponent<BringToFront>().enabled = true;
