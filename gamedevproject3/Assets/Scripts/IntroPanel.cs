@@ -18,8 +18,7 @@ public class IntroPanel : MonoBehaviour {
     // Use this for initialization
     void Start () {
         holder = Time.time;
-        
-    }
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -48,8 +47,6 @@ public class IntroPanel : MonoBehaviour {
         if(Time.time - holder > 17)
         {
             this.gameObject.SetActive(false);
-            GameObject.Find("Button Panel").GetComponent<BringToFront>().enabled = true;
-            displayManager.displayText.alignment = TextAnchor.UpperCenter;
         }
     }
     IEnumerator Display1()
@@ -60,7 +57,7 @@ public class IntroPanel : MonoBehaviour {
     }
     IEnumerator FadeAlpha()
     {
-        this.GetComponent<Image>().CrossFadeAlpha(0f, 0.3f, false);
+        this.GetComponent<Image>().CrossFadeAlpha(0.1f, 2.0f, false);
         yield return null;
     }
 }

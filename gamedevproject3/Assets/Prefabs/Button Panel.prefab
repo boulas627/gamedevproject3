@@ -58,7 +58,6 @@ GameObject:
   - component: {fileID: 224332072722690710}
   - component: {fileID: 222169962303795016}
   - component: {fileID: 114248428819169894}
-  - component: {fileID: 114645174815611296}
   m_Layer: 5
   m_Name: Button Panel
   m_TagString: Untagged
@@ -237,17 +236,6 @@ MonoBehaviour:
   modalPanelObject: {fileID: 0}
   OpenSound: {fileID: 8300000, guid: 8063b36eabe531a4ea8203ee321f3f4f, type: 3}
   CloseSound: {fileID: 8300000, guid: 6703bede36a9e144793e197246b31f0a, type: 3}
---- !u!114 &114645174815611296
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1627142783241914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7461085ad93a769419e9fec149afd27f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114943247068918610
 MonoBehaviour:
   m_ObjectHideFlags: 1
