@@ -875,6 +875,16 @@ Prefab:
       propertyPath: jpanel
       value: 
       objectReference: {fileID: 1928671914}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -893,6 +903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2056020171}
   - component: {fileID: 203173483}
+  - component: {fileID: 203173484}
   m_Layer: 0
   m_Name: Interactables
   m_TagString: Untagged
@@ -915,6 +926,101 @@ MonoBehaviour:
   nameLabel: {fileID: 276751708}
   player: {fileID: 793293684}
   keyring: {fileID: 1636707293}
+--- !u!82 &203173484
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 203173482}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 75f48d640de7e274db3fd4a94219d3c9, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &203802949
 Prefab:
   m_ObjectHideFlags: 0
@@ -1282,6 +1388,16 @@ Prefab:
       propertyPath: jpanel
       value: 
       objectReference: {fileID: 1928671914}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -1435,6 +1551,16 @@ Prefab:
       propertyPath: message
       value: Picked up a bedroom key...
       objectReference: {fileID: 0}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -2204,6 +2330,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 224230196267502224, guid: 32ea3bad495f6c744bcf5d1371aa52c4,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872187658563040, guid: 32ea3bad495f6c744bcf5d1371aa52c4,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.29681396
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32ea3bad495f6c744bcf5d1371aa52c4, type: 2}
   m_IsPrefabAsset: 0
@@ -2455,7 +2591,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4070787191438308, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 29.625
+      value: 29.629
       objectReference: {fileID: 0}
     - target: {fileID: 4070787191438308, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2463,7 +2599,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4070787191438308, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -15.11
+      value: -16.612
       objectReference: {fileID: 0}
     - target: {fileID: 4070787191438308, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2543,6 +2679,16 @@ Prefab:
       propertyPath: fadeout
       value: 
       objectReference: {fileID: 1269408124}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -2957,6 +3103,8 @@ MonoBehaviour:
   key: 2
   openCW: 1
   manager: {fileID: 1983502595}
+  DoorLocked: {fileID: 8300000, guid: 75f48d640de7e274db3fd4a94219d3c9, type: 3}
+  DoorOpen: {fileID: 8300000, guid: d47393dcaa76cfb4586c8639ad1a088a, type: 3}
 --- !u!114 &533572216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3567,6 +3715,16 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1.1448
       objectReference: {fileID: 0}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -3747,6 +3905,8 @@ MonoBehaviour:
   key: -1
   openCW: 0
   manager: {fileID: 1983502595}
+  DoorLocked: {fileID: 8300000, guid: 75f48d640de7e274db3fd4a94219d3c9, type: 3}
+  DoorOpen: {fileID: 8300000, guid: d47393dcaa76cfb4586c8639ad1a088a, type: 3}
 --- !u!114 &696364341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3844,6 +4004,16 @@ Prefab:
       propertyPath: message
       value: Picked up a bedroom key...
       objectReference: {fileID: 0}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -3923,6 +4093,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: a5f0450d12984e94d9c4e773e0e9f9c5, type: 2}
+    - target: {fileID: 13700000, guid: 9f6669f8886571a4487e9b051f508f00, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ff66c7872de4844a8818287a2c02fc0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f6669f8886571a4487e9b051f508f00, type: 3}
   m_IsPrefabAsset: 0
@@ -4348,6 +4522,8 @@ MonoBehaviour:
   key: -1
   openCW: 0
   manager: {fileID: 1983502595}
+  DoorLocked: {fileID: 8300000, guid: 75f48d640de7e274db3fd4a94219d3c9, type: 3}
+  DoorOpen: {fileID: 8300000, guid: d47393dcaa76cfb4586c8639ad1a088a, type: 3}
 --- !u!114 &870477079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5020,6 +5196,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.44
       objectReference: {fileID: 0}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -5106,6 +5292,16 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -5342,6 +5538,8 @@ MonoBehaviour:
   key: -1
   openCW: 0
   manager: {fileID: 1983502595}
+  DoorLocked: {fileID: 8300000, guid: 75f48d640de7e274db3fd4a94219d3c9, type: 3}
+  DoorOpen: {fileID: 8300000, guid: d47393dcaa76cfb4586c8639ad1a088a, type: 3}
 --- !u!114 &1033544986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5418,6 +5616,8 @@ MonoBehaviour:
   key: 1
   openCW: 0
   manager: {fileID: 1983502595}
+  DoorLocked: {fileID: 8300000, guid: 75f48d640de7e274db3fd4a94219d3c9, type: 3}
+  DoorOpen: {fileID: 8300000, guid: d47393dcaa76cfb4586c8639ad1a088a, type: 3}
 --- !u!114 &1039491851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6284,6 +6484,8 @@ MonoBehaviour:
   key: 0
   openCW: 0
   manager: {fileID: 1983502595}
+  DoorLocked: {fileID: 8300000, guid: 75f48d640de7e274db3fd4a94219d3c9, type: 3}
+  DoorOpen: {fileID: 8300000, guid: d47393dcaa76cfb4586c8639ad1a088a, type: 3}
 --- !u!114 &1141899661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6463,6 +6665,16 @@ Prefab:
       propertyPath: message
       value: Picked up a bathroom key...
       objectReference: {fileID: 0}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -6648,6 +6860,16 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.7499
       objectReference: {fileID: 0}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -6985,6 +7207,21 @@ Prefab:
       propertyPath: modalPanelObject
       value: 
       objectReference: {fileID: 325915634}
+    - target: {fileID: 114538168079629304, guid: 50db9bfe7c8f3a240a0a50eada5ba143,
+        type: 2}
+      propertyPath: OpenSound
+      value: 
+      objectReference: {fileID: 8300000, guid: b8ee99db39ebadb499197ea60ea3dee5, type: 3}
+    - target: {fileID: 114538168079629304, guid: 50db9bfe7c8f3a240a0a50eada5ba143,
+        type: 2}
+      propertyPath: CloseSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b4ede100fdf7aa4f87600c03e080687, type: 3}
+    - target: {fileID: 82357544714007968, guid: 50db9bfe7c8f3a240a0a50eada5ba143,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b4ede100fdf7aa4f87600c03e080687, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50db9bfe7c8f3a240a0a50eada5ba143, type: 2}
   m_IsPrefabAsset: 0
@@ -7146,7 +7383,23 @@ Prefab:
       propertyPath: Letter_from_Aurora_O
       value: 
       objectReference: {fileID: 550891239}
-    m_RemovedComponents: []
+    - target: {fileID: 114270910985684538, guid: 1401efea94f47734798143e084a3e1b3,
+        type: 2}
+      propertyPath: audiosrc
+      value: 
+      objectReference: {fileID: 1669532431}
+    - target: {fileID: 114270910985684538, guid: 1401efea94f47734798143e084a3e1b3,
+        type: 2}
+      propertyPath: openJournal
+      value: 
+      objectReference: {fileID: 8300000, guid: b8ee99db39ebadb499197ea60ea3dee5, type: 3}
+    - target: {fileID: 114270910985684538, guid: 1401efea94f47734798143e084a3e1b3,
+        type: 2}
+      propertyPath: closeJournal
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b4ede100fdf7aa4f87600c03e080687, type: 3}
+    m_RemovedComponents:
+    - {fileID: 82995400716801464, guid: 1401efea94f47734798143e084a3e1b3, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 1401efea94f47734798143e084a3e1b3, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1260832518
@@ -7211,6 +7464,130 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bedb9b4764f69b146a53f4d41474d60d, type: 3}
   m_IsPrefabAsset: 0
+--- !u!1 &1263214188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1263214190}
+  - component: {fileID: 1263214189}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1263214189
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263214188}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 70232193b8c745a4baa276733fe78acc, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.11
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1263214190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263214188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.565908, y: 7.528284, z: -7.2612305}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1268569008 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 3786bb2a5b35d554497d4907ad3ebb8c,
@@ -7732,6 +8109,16 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0.001
       objectReference: {fileID: 0}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -8907,6 +9294,16 @@ Prefab:
       propertyPath: jpanel
       value: 
       objectReference: {fileID: 1928671914}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupkey
+      value: 
+      objectReference: {fileID: 8300000, guid: 73b126df589d3e047a4ee43fd42fba52, type: 3}
+    - target: {fileID: 114300982933980246, guid: 33c406951fa8513419b2474791bf7eed,
+        type: 2}
+      propertyPath: pickupnote
+      value: 
+      objectReference: {fileID: 8300000, guid: 2156a7bb84073a348a3b0a0b5515ab5a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c406951fa8513419b2474791bf7eed, type: 2}
   m_IsPrefabAsset: 0
@@ -9192,6 +9589,8 @@ MonoBehaviour:
   key: 3
   openCW: 0
   manager: {fileID: 1983502595}
+  DoorLocked: {fileID: 8300000, guid: 75f48d640de7e274db3fd4a94219d3c9, type: 3}
+  DoorOpen: {fileID: 8300000, guid: d47393dcaa76cfb4586c8639ad1a088a, type: 3}
 --- !u!114 &1654678254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9267,6 +9666,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: caae5c4ebe83e3d4eaa5dd4fbc521489,
     type: 3}
   m_PrefabInternal: {fileID: 383772564}
+--- !u!82 &1669532431 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82357544714007968, guid: 50db9bfe7c8f3a240a0a50eada5ba143,
+    type: 2}
+  m_PrefabInternal: {fileID: 1236142545}
 --- !u!4 &1678711001 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4070787191438308, guid: 33c406951fa8513419b2474791bf7eed,
@@ -9840,6 +10244,8 @@ MonoBehaviour:
   key: 4
   openCW: 1
   manager: {fileID: 1983502595}
+  DoorLocked: {fileID: 8300000, guid: 75f48d640de7e274db3fd4a94219d3c9, type: 3}
+  DoorOpen: {fileID: 8300000, guid: d47393dcaa76cfb4586c8639ad1a088a, type: 3}
 --- !u!114 &1825441411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10565,6 +10971,8 @@ MonoBehaviour:
   key: 1
   openCW: 1
   manager: {fileID: 1983502595}
+  DoorLocked: {fileID: 8300000, guid: 75f48d640de7e274db3fd4a94219d3c9, type: 3}
+  DoorOpen: {fileID: 8300000, guid: d47393dcaa76cfb4586c8639ad1a088a, type: 3}
 --- !u!114 &1999742160
 MonoBehaviour:
   m_ObjectHideFlags: 0

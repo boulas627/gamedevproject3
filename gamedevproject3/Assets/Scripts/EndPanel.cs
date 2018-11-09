@@ -68,17 +68,7 @@ public class EndPanel : MonoBehaviour
             StartCoroutine(Display4());
 
         }
-        if (Time.time - holder > 42 && Time.time - holder < 43 && displaying == false)
-        {
-            displaying = true;
-            if (Display5() != null)
-            {
-                StopCoroutine(Display5());
-            }
-            StartCoroutine(Display5());
-
-        }
-        if (Time.time - holder > 51 && Time.time - holder < 52 && displaying == true)
+        if (Time.time - holder > 42 && Time.time - holder < 43 && displaying == true)
         {
             displaying = false;
             if (FadeAlpha() != null)
@@ -89,7 +79,7 @@ public class EndPanel : MonoBehaviour
             StartCoroutine(FadeAlpha());
 
         }
-        if (Time.time - holder > 52)
+        if (Time.time - holder > 43)
         {
             SceneManager.LoadScene("StartScene");
             this.gameObject.SetActive(false);
@@ -121,13 +111,6 @@ public class EndPanel : MonoBehaviour
     {
         displayManager.displayText.fontSize = 54;
         displayManager.DisplayMessage("\"Well you found me.\"");
-
-        yield return null;
-    }
-    IEnumerator Display5()
-    {
-        displayManager.displayText.fontSize = 54;
-        displayManager.DisplayMessage("...gives tomato leaf.");
 
         yield return null;
     }
