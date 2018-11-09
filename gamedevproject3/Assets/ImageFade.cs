@@ -38,7 +38,7 @@ public class ImageFade : MonoBehaviour
         {
             img.enabled = true;
             // loop over 1 second
-            for (float i = 3; i <= 1; i += Time.deltaTime)
+            for (float i = 0; i <= 3; i += Time.deltaTime)
             {
                 // set color with i as alpha
                 img.color = new Color(1, 1, 1, i/3);
