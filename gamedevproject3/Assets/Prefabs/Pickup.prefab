@@ -19,9 +19,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4070787191438308}
-  - component: {fileID: 33877658280885978}
-  - component: {fileID: 23755417960667818}
-  - component: {fileID: 135242938838904578}
   - component: {fileID: 114094190991906366}
   - component: {fileID: 114300982933980246}
   m_Layer: 0
@@ -48,20 +45,40 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1827616450341156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4336411753913416}
+  - component: {fileID: 33402170479556544}
+  - component: {fileID: 23996019672050054}
+  - component: {fileID: 135904876882227722}
+  - component: {fileID: 114571715773007474}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4070787191438308
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1359184841103626}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.1, y: 1.33, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.99999934, z: -0, w: 0.001179263}
+  m_LocalPosition: {x: -19.21, y: 2.045, z: -4.535}
+  m_LocalScale: {x: 2.1510112, y: 2.1510112, z: 2.1510112}
   m_Children:
+  - {fileID: 4336411753913416}
   - {fileID: 4334884882696134}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 179.865, z: 0}
 --- !u!4 &4334884882696134
 Transform:
   m_ObjectHideFlags: 1
@@ -73,14 +90,27 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4070787191438308}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4336411753913416
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1827616450341156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4070787191438308}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!23 &23755417960667818
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23996019672050054
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1359184841103626}
+  m_GameObject: {fileID: 1827616450341156}
   m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -110,12 +140,12 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33877658280885978
+--- !u!33 &33402170479556544
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1359184841103626}
+  m_GameObject: {fileID: 1827616450341156}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &114094190991906366
 MonoBehaviour:
@@ -140,12 +170,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flag: 0
---- !u!135 &135242938838904578
+  key: 0
+  manager: {fileID: 0}
+--- !u!114 &114571715773007474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1827616450341156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7de229ad70f1444ac3ddfe06c5104c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &135904876882227722
 SphereCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1359184841103626}
+  m_GameObject: {fileID: 1827616450341156}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
