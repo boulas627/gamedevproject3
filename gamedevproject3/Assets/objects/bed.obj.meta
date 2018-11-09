@@ -11,6 +11,7 @@ ModelImporter:
     400004: bed:bed
     2100000: bedMat
     2100002: bed_bedMat
+    2100004: initialShadingGroup
     2300000: bed
     2300002: bed:bed
     3300000: bed
