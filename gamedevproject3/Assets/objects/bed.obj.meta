@@ -5,12 +5,18 @@ ModelImporter:
   fileIDToRecycleName:
     100000: bed
     100002: //RootNode
+    100004: bed:bed
     400000: bed
     400002: //RootNode
+    400004: bed:bed
     2100000: bedMat
+    2100002: bed_bedMat
     2300000: bed
+    2300002: bed:bed
     3300000: bed
+    3300002: bed:bed
     4300000: bed
+    4300002: bed:bed
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
