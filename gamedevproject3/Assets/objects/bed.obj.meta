@@ -10,7 +10,7 @@ ModelImporter:
     400002: //RootNode
     400004: bed:bed
     2100000: bedMat
-    2100002: initialShadingGroup
+    2100002: bed_bedMat
     2300000: bed
     2300002: bed:bed
     3300000: bed
