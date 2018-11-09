@@ -8,11 +8,12 @@ public class JournalButton : MonoBehaviour {
     public AudioClip OpenSound;
     public AudioClip CloseSound;
     private AudioSource audioData;
+    private DisplayManager displayManager;
     // Use this for initialization
 
     void Awake()
     {
-        
+        displayManager = DisplayManager.Instance();
     }
     void Start()
     {
@@ -25,11 +26,17 @@ public class JournalButton : MonoBehaviour {
         {
             modalPanelObject.SetActive(true);
             audioData.PlayOneShot(OpenSound);
+            //Exemple
+            //displayManager.DisplayMessage("Clicked!");
+            //displayManager.fadeTime = 0.5f;
+            //displayManager.displayTime = 1;
         }
         else
         {
             modalPanelObject.SetActive(false);
             audioData.PlayOneShot(CloseSound);
+            //displayManager.DisplayMessage("Clicked!");
+            //displayManager.fadeTime = 0.5f;
 
         }
 
