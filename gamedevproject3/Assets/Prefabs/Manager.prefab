@@ -160,4 +160,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3903445b29b24a748919458a1650f2f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progress_num: -1
+  Pressed_tomato_leaf: 0
+  Entry_36: 0
+  Entry_30: 0
+  Minecraft_Poster: 0
+  Entry_44: 0
+  Letter_from_Aurora: 0
+  Pressed_tomato_leaf_O: {fileID: 0}
+  Entry_36_O: {fileID: 0}
+  Entry_30_O: {fileID: 0}
+  Minecraft_Poster_O: {fileID: 0}
+  Entry_44_O: {fileID: 0}
+  Letter_from_Aurora_O: {fileID: 0}
+  Pressed_tomato_leaf_H: {fileID: 0}
+  Entry_36_H: {fileID: 0}
+  Entry_30_H: {fileID: 0}
+  Minecraft_Poster_H: {fileID: 0}
+  Entry_44_H: {fileID: 0}
+  Letter_from_Aurora_H: {fileID: 0}

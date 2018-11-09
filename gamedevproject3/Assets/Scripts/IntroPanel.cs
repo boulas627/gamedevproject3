@@ -57,7 +57,7 @@ public class IntroPanel : MonoBehaviour {
     }
     IEnumerator FadeAlpha()
     {
-        this.GetComponent<Image>().CrossFadeAlpha(0.1f, 2.0f, false);
+        this.GetComponent<Image>().CrossFadeAlpha(0f, 0.3f, false);
         yield return null;
     }
 }
