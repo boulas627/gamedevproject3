@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class EndPanel : MonoBehaviour
 {
@@ -88,8 +89,9 @@ public class EndPanel : MonoBehaviour
             StartCoroutine(FadeAlpha());
 
         }
-        if (Time.time - holder > 56)
+        if (Time.time - holder > 52)
         {
+            SceneManager.LoadScene("StartScene");
             this.gameObject.SetActive(false);
         }
     }
@@ -102,12 +104,14 @@ public class EndPanel : MonoBehaviour
     IEnumerator Display2()
     {
         displayManager.displayText.fontSize = 45;
+        displayManager.displayTime = 7;
         displayManager.DisplayMessage("\"I started collecting these pieces of your journal wondering if you were ever going to come. Its funny because I found Entry 47 yesterday and I think this is supposed to be the part when you smile. Just like you said here 'I don’t really get upset or angry when I’m around MJ.'\"");
 
         yield return null;
     }
     IEnumerator Display3()
     {
+        displayManager.displayTime = 6;
         displayManager.displayText.fontSize = 54;
         displayManager.DisplayMessage("\"Remember your wedding vows to me? You would always find me while Entry 47 was the last entry. That way all you would have to do is be near me to know you would never be alone again.\"");
 
