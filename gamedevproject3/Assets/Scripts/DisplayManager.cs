@@ -51,7 +51,6 @@ public class DisplayManager : MonoBehaviour
         {
             Color displayColor = displayText.color;
             displayColor.a += Time.deltaTime / fadeTime;
-            Debug.Log(Time.deltaTime);
             displayText.color = displayColor;
             yield return null;
         }
@@ -60,7 +59,6 @@ public class DisplayManager : MonoBehaviour
         {
             Color displayColor = displayText.color;
             displayColor.a -= Time.deltaTime / fadeTime;
-            Debug.Log(Time.deltaTime);
             displayText.color = displayColor;
             yield return null;
         }
