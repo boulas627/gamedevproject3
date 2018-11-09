@@ -49,6 +49,7 @@ public class IntroPanel : MonoBehaviour {
         {
             this.gameObject.SetActive(false);
             GameObject.Find("Button Panel").GetComponent<BringToFront>().enabled = true;
+            displayManager.displayText.alignment = TextAnchor.UpperCenter;
         }
     }
     IEnumerator Display1()
