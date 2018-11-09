@@ -18,18 +18,12 @@ public class Interactable : MonoBehaviour {
         return isAvail;
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void Avail()
     {
-        if(other.gameObject.tag.Equals("Player") == true)
-        {
-            isAvail = true;
-        }
+        isAvail = true;
     }
-    private void OnTriggerExit(Collider other)
+    public void notAvail()
     {
-        if(other.gameObject.tag.Equals("Player") == true)
-        {
-            isAvail = false;
-        }
+        isAvail = false;
     }
 }

@@ -6,9 +6,11 @@ public class DoorAnimator : MonoBehaviour {
 
     private bool animating;
     public float animationlength = 1;
+    public int key = -1;
     private float animationtimer;
     public bool openCW = true;
     private bool opened;
+    public DisplayManager manager;
 
     private void Start()
     {
@@ -19,7 +21,18 @@ public class DoorAnimator : MonoBehaviour {
 
     public void Animate()
     {
-        animating = true;
+        if (key >= 0) {
+            if (transform.parent.GetComponent<InteractController>().keyring.hasKey(key))
+            {
+                animating = true;
+            }
+            else
+            {
+                manager.DisplayMessage("It's locked...");
+            }
+        }
+        else
+            animating = true;
     }
 
 	void Update () {
@@ -30,12 +43,14 @@ public class DoorAnimator : MonoBehaviour {
                 if ((!opened && openCW) || (opened && !openCW))
                 {
                     //rotate clockwise
-                    transform.RotateAround(transform.GetChild(0).transform.position, Vector3.up, 90/animationlength * Time.deltaTime);
+                    transform.GetChild(1).RotateAround(transform.GetChild(0).transform.position, Vector3.up, 90/animationlength * Time.deltaTime);
+                    transform.GetChild(2).RotateAround(transform.GetChild(0).transform.position, Vector3.up, 90/animationlength * Time.deltaTime);
                 }
                 else
                 {
                     //rotate ccw
-                    transform.RotateAround(transform.GetChild(0).transform.position, Vector3.up, -90/animationlength * Time.deltaTime);
+                    transform.GetChild(1).RotateAround(transform.GetChild(0).transform.position, Vector3.up, -90/animationlength * Time.deltaTime);
+                    transform.GetChild(2).RotateAround(transform.GetChild(0).transform.position, Vector3.up, -90/animationlength * Time.deltaTime);
                 }
                 animationtimer -= Time.deltaTime;
             }
