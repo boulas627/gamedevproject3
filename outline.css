@@ -1,0 +1,15 @@
+html {
+	margin: ;
+}
+
+h1 {
+	border: 5px solid black;
+}
+
+body {
+	margin-bottom: 5; 
+	margin-top: 5; 
+	margin-left: 4em; 
+	margin-right: 4em;
+	background-color: LightCoral; 
+}
